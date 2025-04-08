@@ -11,17 +11,20 @@ const ServicesSection = () => {
             title="Cash Stash Stats"
             description="Track and analyze your cash flow with detailed statistics and visualizations."
             linkTo="/cash-stash-stats"
+            buttonText="View"
           />
           <ServiceCard
             title="Money Moves"
             description="Monitor your investments and financial activities with real-time updates."
             linkTo="/money-moves"
+            buttonText="View"
           />
           <ServiceCard
             title="Financial Advice"
             description="Get personalized recommendations to help you achieve your financial goals."
             linkTo="/financial-advice"
             status="coming-soon"
+            buttonText="View"
           />
         </div>
       </div>

@@ -33,12 +33,16 @@ const Navbar = () => {
       </div>
 
       <div className="flex space-x-2">
-        <Button variant="ghost" className="text-white">
-          Login
-        </Button>
-        <Button className="bg-finmate-blue hover:bg-finmate-bright-blue text-white">
-          Sign Up
-        </Button>
+        <Link to="/login">
+          <Button variant="ghost" className="text-white">
+            Login
+          </Button>
+        </Link>
+        <Link to="/signup">
+          <Button className="bg-finmate-blue hover:bg-finmate-bright-blue text-white">
+            Sign Up
+          </Button>
+        </Link>
       </div>
     </nav>
   );
