@@ -1,4 +1,3 @@
-
 import Navbar from "@/components/Navbar";
 import ServicesSection from "@/components/ServicesSection";
 import { Button } from "@/components/ui/button";
@@ -21,12 +20,6 @@ const Index = () => {
             <div className="flex flex-col sm:flex-row space-y-3 sm:space-y-0 sm:space-x-4 mt-4">
               <Button className="bg-finmate-blue hover:bg-finmate-bright-blue text-white px-8 py-6 text-lg">
                 Get Started for Free
-              </Button>
-              <Button 
-                variant="outline" 
-                className="border-white text-white hover:bg-white hover:text-finmate-dark px-8 py-6 text-lg"
-              >
-                See Demo
               </Button>
             </div>
           </div>

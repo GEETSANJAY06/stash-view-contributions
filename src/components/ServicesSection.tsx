@@ -16,7 +16,6 @@ const ServicesSection = () => {
             title="Money Moves"
             description="Monitor your investments and financial activities with real-time updates."
             linkTo="/money-moves"
-            status="coming-soon"
           />
           <ServiceCard
             title="Financial Advice"
